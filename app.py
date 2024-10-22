@@ -57,6 +57,7 @@ crossword = Crossword(crossword_size)
 # Add words with placements and hints
 crossword.add_word((0, 0), 'across', 'MOON', 'celestial body which revolves around Earth')
 crossword.add_word((0, 1), 'down', 'OAK', 'hardwood tree')
+crossword.add_word((0, 3), 'down', 'NEST', 'place where birds sleep')
 
 # Display the crossword
 crossword.display()
